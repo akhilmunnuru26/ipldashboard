@@ -1,0 +1,66 @@
+.bg-container {
+  background-image: linear-gradient(
+    to bottom,
+    #d71c1f,
+    #d41c1f,
+    #6f232e,
+    #2b2838
+  );
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.app-container {
+  padding: 20px;
+}
+.back {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto';
+  text-align: end;
+}
+.team-banner {
+  width: 100%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 12px;
+}
+.team-match {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #2b2838);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #2b2838);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #2b2838);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #2b2838);
+}
+.SRH {
+  background-image: linear-gradient(to bottom, #f26d22, #2b2838);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #2b2838);
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #2b2838);
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
